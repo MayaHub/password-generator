@@ -8,20 +8,28 @@
 </head>
 <body>
     <main>
-        <div class="title">
-            <h1>Generate a <span id="random-txt">random password</span></h1>
-            <h4>Never use an insecure password again</h4>
+        <div class="container gen-title">
+            <div class="title">
+                <h1>Generate a <br><span id="random-txt">random password</span></h1>
+                <p>Never use an insecure password again</p>
+            </div>
+    
+            <div class="button">
+                <div id="gen-btn"></div>
+                <button>Generate Passwords</button>
+            </div>
+            <div class="line"></div>
         </div>
 
-        <div class="button">
-            <div id="gen-btn"></div>
-            <button>Generate Passwords</button>
-        </div>
 
-        <div class="passwords">
-            <p id="pw-one"></p>
-            <p id="pw-two"></p>
+        <div class="container">
+            <div class="passwords">
+                <p class="pw" id="pw-one"></p>
+                <p class="pw" id="pw-two"></p>
+            </div>
+            
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>

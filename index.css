@@ -1,13 +1,58 @@
 body {
     background-color: #1c1c1c;
     color: #d5d4d8;
+    font-family: sans-serif;
 }
+
+main {
+    border: solid 3px yellow;
+    background-color: #1f2937;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.gen-title {
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
 
 button {
     background-color: #108981;
     color: white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 20px;
 }
 
 #random-txt {
-    color: #108981;
+    color: #4adf86;
+}
+
+.passwords {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    /* border: solid 3px orange; */
+    margin-left: 30px;
+}
+
+
+.pw {
+    border: dotted 1px yellowgreen;
+    border-radius: 5px;
+    background-color: #273549;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    color: #55f991;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.line {
+    width: 95%;
+    border: solid 1px #2f3e53;
+    margin: 20px 0;
 }
