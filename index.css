@@ -1,3 +1,7 @@
+/* html {
+    min-width: 300px;
+} */
+
 body {
     background-color: #1c1c1c;
     color: #d5d4d8;
@@ -5,10 +9,12 @@ body {
 }
 
 main {
-    border: solid 3px yellow;
+    /* border: solid 3px yellow; */
     background-color: #1f2937;
     max-width: 500px;
     max-height: 500px;
+    padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .gen-title {
@@ -40,19 +46,28 @@ button {
 
 
 .pw {
-    border: dotted 1px yellowgreen;
     border-radius: 5px;
     background-color: #273549;
     width: 200px;
     height: 40px;
-    text-align: center;
     color: #55f991;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .line {
     width: 95%;
     border: solid 1px #2f3e53;
     margin: 20px 0;
+}
+
+@media screen and (max-width: 450px) {
+    .passwords {
+        display: block;
+        text-align: left;
+    }
+
 }
