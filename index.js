@@ -6,8 +6,8 @@ const passTwo = document.getElementById("pw-two");
 
 const generate = document.getElementById("gen-btn");
 
-passOne.textContent = "blue";
-passTwo.textContent = "green";
+// passOne.textContent = "blue";
+// passTwo.textContent = "green";
 
 // function to generate random passwords
 // needs to generate two unique passwords at once
@@ -35,3 +35,9 @@ generate.addEventListener("click", function() {
     passTwo.textContent = newPassTwo;
 });
 
+//click password to copy to clipboard
+// function copyText() {
+//     passOne.select();
+//     passTwo.select(); 
+//     document.execCommand
+// }
